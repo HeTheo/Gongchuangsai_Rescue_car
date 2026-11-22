@@ -1,0 +1,71 @@
+# ========== 隐私 / 官方资料（绝对不能传）==========
+/发票/
+/报道文件/
+/获奖文件/
+/任务命题文档/
+/STM32F407VGT6芯片资料/
+/STM32F4/
+
+# ========== 数据集 / 训练中间产物（体积大）==========
+/runs/
+/yolo/
+/VOC_dataset/
+/My First Project.v3i.yolov11/
+/My First Project.v3i.yolov11.zip
+/My First Project.v4i.yolov11/
+/My First Project.v4i.yolov11.zip
+/My First Project.v5i.yolov11/
+/My First Project.v5i.yolov11.zip
+
+# ========== 预训练权重 / 历史模型 ==========
+/yolo11n.pt
+/gongchuangsai_yolo11n_det_320.kmodel
+/gongchuangsai_yolo11n_det_320_v2.kmodel
+
+# ========== 临时文件 ==========
+/tmp/
+/.dsh-office-*/
+*.dsh-office-*
+
+# ========== Keil 编译产物 ==========
+**/OBJ/
+**/Listings/
+**/DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.lst
+*.map
+*.lnp
+*.dep
+*.iex
+*.sct
+*.uvguix.*
+*.uvoptx.bak
+
+# ========== 历史 / 实验工程（只留 Final）==========
+/小车代码/Control/
+/小车代码/Control_v2/
+/小车代码/Control_v2_Turn/
+/小车代码/ALL_test/
+/小车代码/ALL_test_Gyro/
+/小车代码/M0单轴陀螺仪/
+/小车代码/PID速度闭环/
+/小车代码/PWM驱动电机/
+/小车代码/基础源码/
+
+# ========== 视觉代码历史版本 ==========
+/视觉代码/New_v6.py
+/视觉代码/New_v7.py
+
+# ========== 系统垃圾 ==========
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ========== 3D 模型 / 冗余打包 ==========
+/3D建模文件/
+/视觉代码/YOLO模型/7319.tar
